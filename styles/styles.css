@@ -1,0 +1,64 @@
+body{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+li {
+    display: inline;
+}
+
+.navigatie {
+    background-color: salmon;
+}
+.groote-tekst {font-size: 16px;}
+
+.container{
+   width: 80%;
+   margin:auto; 
+}
+
+.box-1 {
+    background-color: #333;
+    color: #fff
+
+}
+
+.box-1 h1 {
+    font-size: 80px;
+    padding: 5px 10px;
+}
+
+.box-2 {
+    padding: 5px 10px 5px 10px;
+}
+
+header{
+    border: 1px solid rgb(114, 221, 43);
+    margin-bottom: 70px;
+}
+
+header hr {
+    display: block;
+    border: 1px solid gray;
+    height: 30px;
+}
+
+main{
+    border: 3px dotted rgb(221, 43, 43)
+}
+
+.black-border {
+    border: 5px solid black
+}
+
+#blue {background-color: green;}
+.mydiv {
+    display: inline-block;
+    border: 1px solid red;
+    height: auto;
+    width: 200px;
+}
+
+.red {color: greenyellow}
+
