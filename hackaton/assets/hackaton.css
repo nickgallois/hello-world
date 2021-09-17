@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: dimgrey;
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    grid-gap: 10px;
+}
+
+.container > div{
+    background: url('./wallstreet-night.jpeg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.header::after{
+    content:'';
+    display: table;
+    clear: both;
+    }
+
+    li{
+    color: white;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 60px;
+        padding-top: 25px;
+        position: relative;
+    }
+
+    nav{
+        float: right;
+        padding: 5px;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    nav a:hover {
+        color:red;
+        }
+
+    nav a::before{
+        content:'';
+        display: block;
+        height: 5px;    
+        width: 100%;
+        background-color: royalblue;
+        top: 0;
+        width: 0%;
+    }
+
+    nav a:hover::before{
+        width: 100%;
+    }
+
+
+.logo {
+    float: left;
+    padding: 5px ;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video{
+    padding: 5px;
+    width:50%;
+    justify-self: center;
+    position: relative;
+}
+
+.video iframe{
+position: absolute;
+top: 0;
+right: 0;
+width: 80%;
+height: 100%;
+}
+
+
+
+.text{
+    font-size: 22px;
+    padding: 5px 5px;
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    vertical-align: bottom;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between ;
+}
+
+.footertext{
+    align-self: flex-end;
+}
+
+@media  (max-width: 460px) {
+.footer{
+    flex-direction: column;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.text{
+    width: 100%;
+}
+
+.video iframe{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    height: 100%;
+}
+
+}
+
