@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    padding: 2%;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+
+ul {
+    color:lightslategrey;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card {
+    width: 25%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card p:nth-child(2) {
+    color: lightslategray;
+    margin-bottom: 10px;
+}
+
+.card > section > button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.card > section:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.card > section {
+    padding: 15px;
+}
+
+.card > section:nth-child(2) > button:nth-child(1) {
+    border: 2px solid green;
+    color: green;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.card > section:nth-child(2) > button:nth-child(2) {
+    border: 2px solid red;
+    color: red;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.card>section:nth-child(1) {
+    display: flex;
+}
+
+.card img { 
+    width: 60px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
