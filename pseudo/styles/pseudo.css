@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px 0px;
+    position: relative;
+    font-size: 25px;
+}
+
+.hover:hover{
+    color: #1e90ff;
+    font-weight: 800;
+}
+
+.hover {
+    margin: 0px;
+}
+
+.active:active {
+    color: red;
+    font-style: italic;
+}
+
+.visited:visited {
+    color: yellow;
+    text-decoration-color: yellow;
+}
+
+.input:focus {
+    color: green;
+    font-size: 20px;
+    border: 5px solid aqua;
+
+}
+
+.currentpage {
+    background-color: rgb(110, 110, 173);
+}
+
+.currentpage:hover {
+    background-color:lightskyblue
+}
+
+nav ul li div, .visited, .input{
+    margin-left: 20px;
+}
+
+nav {
+    background-color: darkblue;
+    color: white;
+}
