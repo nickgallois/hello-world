@@ -25,7 +25,7 @@ hr {
 
 /* maak je selectors hier. Gebruik het volgende achtergrondkleur: lightsteelblue; */
 
-.one li:nth-child(1), .two ol li:nth-child(3), .three ul li:nth-child(-n+3) {
+.one li:nth-child(1), .two ol li:nth-child(3), .three ul:nth-child(odd) li:nth-child(-n+3) {
   background-color: lightsteelblue;
 }
 
